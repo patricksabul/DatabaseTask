@@ -7,3 +7,4 @@ namespace DatabaseTask.Models
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
+https://github.com/patricksabul/DatabaseTask.git
