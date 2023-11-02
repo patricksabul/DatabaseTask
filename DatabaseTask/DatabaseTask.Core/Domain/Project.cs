@@ -7,11 +7,15 @@ using System.Threading.Tasks;
 
 namespace DatabaseTask.Core.Domain
 {
-    public class Employee
+    public class Project
     {
-        public Guid Id { get; set; }
-        public string? FirstName { get; set; }
-        public string? LastName { get; set; }
+        public int ProjectId { get; set; }
+
+        public string Specialist { get; set; }
+
+        public string Employee { get; set; }
+
+        public int EmpolyeeNumber { get; set; }
 
     }
 }

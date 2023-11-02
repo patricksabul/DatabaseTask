@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace DatabaseTask.Core.Domain
 {
-    public class Employee
+    public class Company
     {
-        public Guid Id { get; set; }
-        public string? FirstName { get; set; }
-        public string? LastName { get; set; }
+        public int Id { get; set; }
+        public string? Name { get; set; }
+        //public Project ProjectId { get; set; }
+        public FieldSpecialist SpecialistId { get; set; }
 
     }
 }
